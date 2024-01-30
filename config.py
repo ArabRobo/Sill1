@@ -39,7 +39,7 @@ UPSTREAM_BRANCH = os.environ.get("UPSTREAM_BRANCH", "master")
 DB_URI = os.environ.get("DATABASE_URL", "postgres://bnztebfu:hrPXMvQ9F1RHEFB0cjzOsks_B-RG_LFe@tiny.db.elephantsql.com/bnztebfu")
 
 # ID dari Channel Atau Group Untuk Wajib Subscribenya
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002021407169"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002073941759"))
 FORCE_SUB_GROUP = int(os.environ.get("FORCE_SUB_GROUP", "-1002111336663"))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
